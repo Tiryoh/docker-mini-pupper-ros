@@ -1,0 +1,3 @@
+[submodule "mnpp_ws/src/minipupper_ros"]
+	path = mnpp_ws/src/minipupper_ros
+	url = https://github.com/mangdangroboticsclub/minipupper_ros.git
