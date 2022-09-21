@@ -71,7 +71,7 @@ RUN apt-get update && \
     rm -rf rm -rf /var/lib/apt/lists/*
 
 RUN apt-get update && \
-    apt-get install libudev-dev && \
+    apt-get install -y libudev-dev && \
     apt-get clean -y && \
     rm -rf rm -rf /var/lib/apt/lists/*
 
