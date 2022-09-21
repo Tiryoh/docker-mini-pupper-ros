@@ -14,6 +14,7 @@ ADD https://api.github.com/repos/cartographer-project/cartographer/git/refs/head
 RUN mkdir src && \
     wget https://raw.githubusercontent.com/cartographer-project/cartographer_ros/master/cartographer_ros.rosinstall && \
     vcs import src < cartographer_ros.rosinstall && \
+    sed -i -e "s%<depend>libabsl-dev</depend>%<\!--<depend>libabsl-dev</depend>-->%g" src/cartographer/package.xml && \
     . /opt/ros/noetic/setup.sh && \
     rosdep update && \
     apt-get update && \
