@@ -75,3 +75,7 @@ RUN apt-get update && \
     apt-get clean -y && \
     rm -rf rm -rf /var/lib/apt/lists/*
 
+RUN apt-get update && \
+    apt-get install -y terminator && \
+    apt-get clean -y && \
+    rm -rf rm -rf /var/lib/apt/lists/*

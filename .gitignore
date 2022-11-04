@@ -1,3 +1,5 @@
+.ros/
+.gazebo/
 backup/
 .catkin_tools/
 *.bag
