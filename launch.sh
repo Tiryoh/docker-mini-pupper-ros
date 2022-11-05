@@ -25,4 +25,4 @@ rocker $NVIDIA --x11 --user \
 	${SRC_DIR}/.bashrc:/home/$(whoami)/.bashrc \
 	${SRC_DIR}/.inputrc:/home/$(whoami)/.inputrc \
 	${SRC_DIR}/save_map.sh:/home/$(whoami)/save_map.sh \
-	-- ghcr.io/tiryoh/mini-pupper-ros:latest
+	-- ghcr.io/tiryoh/mini-pupper-ros:noetic
