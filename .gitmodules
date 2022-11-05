@@ -1,3 +1,15 @@
 [submodule "mnpp_ws/src/mini_pupper_ros"]
 	path = mnpp_ws/src/mini_pupper_ros
 	url = https://github.com/mangdangroboticsclub/mini_pupper_ros.git
+[submodule "mnpp_ws/src/champ/champ"]
+	path = mnpp_ws/src/champ/champ
+	url = https://github.com/chvmp/champ.git
+[submodule "mnpp_ws/src/champ/champ_teleop"]
+	path = mnpp_ws/src/champ/champ_teleop
+	url = https://github.com/chvmp/champ_teleop.git
+[submodule "mnpp_ws/src/champ/yocs_velocity_smoother"]
+	path = mnpp_ws/src/champ/yocs_velocity_smoother
+	url = https://github.com/chvmp/yocs_velocity_smoother.git
+[submodule "mnpp_ws/src/ldlidar_stl_ros"]
+	path = mnpp_ws/src/ldlidar_stl_ros
+	url = https://github.com/ldrobotSensorTeam/ldlidar_stl_ros.git
